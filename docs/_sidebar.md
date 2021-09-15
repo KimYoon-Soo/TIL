@@ -4,4 +4,4 @@
 * [C#]()
 * [DataBase]()
 * [Git & GitHub]()
-* - [210914 - Git 시작](./Git & GitHub/210914 - Git 시작.md)
+* - [210914 - Git 시작](./Git/210914.md)
