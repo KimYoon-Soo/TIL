@@ -11,12 +11,15 @@
 * - [210914 - Git 시작](./Git/210914.md)
 <!-- * [**Internet**]() -->
 * [**&#128312; Java**]()
+* - [210921 - 상속 vs 조합](./Java/210921_Inheritance_VS_Composition.md)
 * - [210918 - static에 관하여](./Java/210918_About_Static.md)
 * [**&#128313; Javascript**]()
 * - [210919 - React를 위한 Javascript](./Javascript/210919_Javascript_For_React.md)
-* - - [변수 선언하기](./Javascript/210919_Declare_A_Variable.md)
-<!-- * - - [함수 만들기](./Javascript/210919_Create_Function.md) -->
+* - - [210919 - 변수 선언하기](./Javascript/210919_Declare_A_Variable.md)
+* - - [210920 - 함수 만들기](./Javascript/210920_Create_Function.md)
 <!-- * [**&#128305; Kafka**]() -->
 <!-- * [**&#128304; Python**]() -->
 <!-- * [**&#128303; React**]() -->
 <!-- * [**&#128261; Redis**]() -->
+* [**&#128214; 훌륭한 프로그래머 되는 법**]()
+* - [210922 - 시작](./BecomingABetterProgramer/210922_Start.md)
