@@ -11,6 +11,7 @@
 * - [210914 - Git 시작](./Git/210914.md)
 <!-- * [**Internet**]() -->
 * [**&#128312; Java**]()
+* - [210924 - extends vs implements](./Java/210924_Extends_VS_Implements.md)
 * - [210921 - 상속 vs 조합](./Java/210921_Inheritance_VS_Composition.md)
 * - [210918 - static에 관하여](./Java/210918_About_Static.md)
 * [**&#128313; Javascript**]()
@@ -22,4 +23,5 @@
 <!-- * [**&#128303; React**]() -->
 <!-- * [**&#128261; Redis**]() -->
 * [**&#128214; 훌륭한 프로그래머 되는 법**]()
+* - [210923 - 19. 코드 재사용 사례](./BecomingABetterProgramer/210923_Code_Reuse_Case.md)
 * - [210922 - 시작](./BecomingABetterProgramer/210922_Start.md)
