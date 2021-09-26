@@ -1,5 +1,5 @@
-# URI와 웹 브라우저 요청 흐름
-## URI
+# URI와 Web 브라우저 요청 흐름
+## URI란?
 - Uniform Resource Identifier<br>
   - Uniform : 리소스 식별하는 통일된 방식<br>
   - Resource : 자원, URI로 식별할 수 있는 모든 것 (제한 없음)<br>
@@ -12,16 +12,14 @@
 - 거의 URL만 사용, URN은 이런게 있구나 정도로만 이해<br>
   (URN 이름만으로 실제 리소스를 찾을 수 있는 방법이 보편화 되지 않음)
 
-- 위치는 변할 수 있지만, 이름은 변하지 않는다.
-
 - 그래서 사실 URI = URL이라고 봐도 됨
 
-### URL Scheme
+## URL Scheme
 - scheme://[userinfo@]host:[port][/path][?query][#fragment]<br>
   https:<span></span>//www.<span></span>google.com:443/serach?q=hello&hl=ko
 
 - Scheme : 주로 프로토콜 사용<br>
-  프로토콜 : 어떤 방식으로 자원에 접근할 것인가 하는 약속 규칙<br>
+  (프로토콜 : 어떤 방식으로 자원에 접근할 것인가 하는 약속 규칙)<br>
   (ex http, https, ftp 등)
 
 - userinfo : URL에 사용자정보를 포함해서 인증해야하며 거의 사용하지 않음
@@ -42,7 +40,7 @@
 - https = http secure<br>
   (지금은 대부분의 웹사이트들이 https로 동작중)
 
-## 웹 브라우저 요청 흐름
+## Web 브라우저 요청 흐름
 1. DNS 조회 (www.<span></span>google.com:443 → IP : 200.200.200.2 + HTTPS port 생략, 443)
 
 1. HTTP 요청 메세지 생성 (GET /serach?q=hello&hl=ko HTTP/1.1 Host:www.<span></span>google.com)
@@ -50,10 +48,10 @@
 1. HTTP 메세지 전송
    1. Web 브라우저가 HTTP 메세지 생성
    1. Socket 라이브러리를 통해 전달
-      - A : TCP/IP 연결(IP, PORT)
+      - A : TCP/IP 연결 (IP, PORT)
       - B : 데이터 전달
 
-1. TCP/IP 패킷 생성, HTTP 메세지 포함
+1. TCP/IP 패킷 생성 (HTTP 메세지 포함)
 
 1. 네트워크 인터페이스(LAN 장비 등)을 통하여 인터넷으로 전달하여 서버로 전달
 
