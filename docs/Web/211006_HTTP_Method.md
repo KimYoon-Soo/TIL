@@ -64,7 +64,7 @@
 
 ## POST
 - POST /members HTTP/1.1<br>
-  Content-Type: application/json<br><br>
+  Content-Type: application/json<br>
   {<br>
     "username": "hello",<br>
     "age": 20<br>
@@ -84,13 +84,13 @@
 
 - 예시)<br>
  . HTML 양식에 입력된 필드와 같은 데이터 블록을 데이터 처리 프로세스에 제공<br>
-  (HTML FORM에 입력한 정보로 회원 가입, 주문 등에서 사용)<br>
+   (HTML FORM에 입력한 정보로 회원 가입, 주문 등에서 사용)<br>
  . 게시판, 뉴스 그룹, 메일링 리스트, 블로그 또는 유사한 기사 그룹에 메세지 게시<br>
-  (게시판 글쓰기, 댓글 달기)<br>
+   (게시판 글쓰기, 댓글 달기)<br>
  . 서버가 아직 식별하지 않은 새 Resource 생성<br>
-  (신규 주문 생성)<br>
+   (신규 주문 생성)<br>
  . 기존 자원에 데이터 추가<br>
-  (한 문서 긑에 내용 추가하기)
+   (한 문서 긑에 내용 추가하기)
 
 - **정리 : 이 Resource URI에 POST 요청이 오면 요청 데이터를 어떻게 처리할지 Resource마다 따로 정해야함**
  . 정해진 것이 없다.
@@ -98,21 +98,23 @@
 #### POST 정리
 1. 새 Resource 생성(등록)
  . 서버가 아직 식별하지 않은 새 Resource 생성
-1. 요청 데이터 처리
+
+1. 요청 데이터 처리<br>
  . 단순히 데이터를 생성하거나, 변경하는 것을 넘어서 프로세스를 처리해야 하는 경우<br>
  . 예) 주문에서 결제 완료 → 배달 시작 → 배달 완료 처럼 단순히 값 변경을 넘어 프로세스의 상태가 변경되는 경우<br>
  . POST의 결과로 새로운 Resource가 생성되지 않을 수도 있음<br>
  . 예) POST /ordes/{orderId}/start-delivery **(컨트롤 URI)**
+
 1. 다른 메서드로 처리하기 애매한 경우
  . 예) JSON으로 조회 데이터를 넘겨야 하는데, GET 메서드를 사용하기 어려운 경우<br>
  . 애매하면 POST
 
 ## PUT
 - PUT /members/100 HTTP/1.1<br>
-  Content-Type: application/json<br><br>
+  Content-Type: application/json<br>
   {<br>
-      "username": "hello",<br>
-      "age": 20<br>
+    "username": "hello",<br>
+    "age": 20<br>
   }
 
 - Resource를 대체<br>
@@ -120,7 +122,7 @@
  . Resource가 없으면 생성<br>
  . 쉽게 이야기해서 덮어버림
 
-- **클라이언트가 Resource를 식별**
+- **클라이언트가 Resource를 식별**<br>
  . 클라이언트가 Resource 위치를 알고 URI 지정<br>
  . POST와 차이점
 
@@ -128,9 +130,9 @@
 
 ## PATCH
 - PATCH /members/100 HTTP/1.1<br>
-  Content-Type: application/json<br><br>
+  Content-Type: application/json<br>
   {<br>
-      "age":50<br>
+    "age":50<br>
   }
 
  - Resource 부분 변경
@@ -170,7 +172,7 @@
  . 자동 복구 메커니즘<br>
  . 서버가 TIMEOUT 등으로 정상 응답을 못주었을 떄, 클라이언트가 같은 요청을 다시 해도 되는가? 판단의 근거
 
-- Q. 재요청 중간에 다른 곳에서 Resource를 변경해버리면?
+- Q. 재요청 중간에 다른 곳에서 Resource를 변경해버리면?<br>
  . 사용자1: GET → username: A, age: 20<br>
  . 사용자2: PUT → username: A, age: 30<br>
  . 사용자1: GET → username: A, age: 30 → 사용자2의 영향으로 바뀐 데이터 조회
