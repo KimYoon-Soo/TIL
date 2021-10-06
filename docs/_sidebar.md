@@ -8,6 +8,7 @@
 * - [210917 - MVC 패턴](./DesignPattern/210917_2.md)
 * - [210917 - 디자인 패턴이란?](./DesignPattern/210917_1.md)
 * [**🐳 Docker**]()
+<!-- * - [211004 - Docker 설치부터 실행까지](./Docker/211004_StartDocker.md) -->
 * - [211002 - Docker란 무엇인가?](./Docker/211002_WhatIsDocker.md)
 * [**&#128187; Git & GitHub**]()
 * - [210914 - Git 시작](./Git/210914.md)
@@ -25,6 +26,7 @@
 <!-- * [**&#128303; React**]() -->
 <!-- * [**&#128261; Redis**]() -->
 * [**&#127760; Web**]()
+* - [211006 - HTTP 메서드](./Web/211006_HTTP_Method.md)
 * - [210927 - HTTP 기본](./Web/210927_HTTP_Basic.md)
 * - [210926 - URI와 Web 브라우저 요청 흐름](./Web/210926_URI_And_Web_Browser_Request_Flow.md)
 * - [210925 - 인터넷 네트워크](./Web/210925_Internet_Network.md)
