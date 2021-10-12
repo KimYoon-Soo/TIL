@@ -26,6 +26,7 @@
 <!-- * [**&#128303; React**]() -->
 <!-- * [**&#128261; Redis**]() -->
 * [**&#127760; Web**]()
+* - [211011 - HTTP 설계 예시](./Web/211011_HTTP_Design_Example.md)
 * - [211009 - HTTP 메서드 활용](./Web/211009_Utilize_HTTP_Method.md)
 * - [211006 - HTTP 메서드](./Web/211006_HTTP_Method.md)
 * - [210927 - HTTP 기본](./Web/210927_HTTP_Basic.md)
