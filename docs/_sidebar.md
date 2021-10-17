@@ -1,6 +1,7 @@
 * [&#127797; **ASP.NET**]()
+* - [211017 - ASP.NET Core 시작](./Aspdotnet/211017_Aspdotnetcore_Start.md)
 <!-- * - [210916 - MVC 구성요소](./Aspdotnet/210916.md)  -->
-* - [210915 - ASP.NET 시작](./Aspdotnet/210915_Aspdotnet_Start햣.md)
+* - [210915 - ASP.NET 시작](./Aspdotnet/210915_Aspdotnet_Start.md)
 <!-- * [**&#128279; C#**]() -->
 <!-- * [**&#128196; DataBase**]() -->
 <!-- * - [210918 - Mysql Index](./Database/210918.md) -->
